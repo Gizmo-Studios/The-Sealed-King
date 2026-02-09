@@ -26,6 +26,13 @@ Scince I saw a GDC Talk from Sea of Thieves a few years back I am really interes
 
   <img align="right" width="500"
        src="https://github.com/user-attachments/assets/cf33159e-d8c1-4107-bd58-d0476d814362"/>
+
+  </br>
+   <img align="right" width="250"
+       src="https://github.com/user-attachments/assets/40a91cfc-4ee8-49f0-8fd9-0a64c41972be"/>
+
+<img align="right" width="250"
+       src="https://github.com/user-attachments/assets/28af9585-0118-4421-9c26-44555badf97a"/>
  
   Inspired by Martin Donald’s Hotspot Texturing example, I wanted to try the approach myself. I created a small Houdini asset that takes a mesh as input and either unwraps it automatically based on surface angles or allows the use of a handmade unwrap.
 
@@ -34,8 +41,7 @@ Scince I saw a GDC Talk from Sea of Thieves a few years back I am really interes
   The UVs are placed into the corresponding trim area and scaled to fit either uniformly or along a single axis. Afterwards, the unwrapped mesh can be used directly in-engine together with the texture.
 
   This tool allows a large number of objects to be unwrapped and textured in very little time and works especially well in sci-fi settings due to its focus on hard-surface modeling.
- <img align="center" width="500"
-       src="https://github.com/user-attachments/assets/40a91cfc-4ee8-49f0-8fd9-0a64c41972be"/>
+
   <br clear="all">
 </div>
 
