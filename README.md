@@ -39,9 +39,9 @@ Scince I saw a GDC Talk from Sea of Thieves a few years back I am really interes
 
   This tool allows a large number of objects to be unwrapped and textured in very little time and works especially well in sci-fi settings due to its focus on hard-surface modeling.
   <br clear="all">
-  <img align="right" height="250"
+  <img align="right" height="250" width="500"
        src="https://github.com/user-attachments/assets/28af9585-0118-4421-9c26-44555badf97a"/>
-   <img align="right" width="250"
+   <img align="right" width="250" 
        src="https://github.com/user-attachments/assets/40a91cfc-4ee8-49f0-8fd9-0a64c41972be"/>
   <br clear="all">
 </div>
