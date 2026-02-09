@@ -49,7 +49,7 @@ Scince I saw a GDC Talk from Sea of Thieves a few years back I am really interes
 <div>
   <h3> 🔫 PCG - Magazine:</h3>
 
-  <img align="right" width="500"
+  <img align="right" height="500"
        src="https://github.com/user-attachments/assets/3d2f5b2a-0016-4220-b525-3c071b24872c"/>
 
   <img align="right" width="500"
