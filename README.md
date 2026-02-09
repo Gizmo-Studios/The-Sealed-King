@@ -27,12 +27,13 @@ Scince I saw a GDC Talk from Sea of Thieves a few years back I am really interes
   <img align="right" width="500"
        src="https://github.com/user-attachments/assets/cf33159e-d8c1-4107-bd58-d0476d814362"/>
 
-  </br>
+  <br clear="all">
+  <img align="right" width="250"
+       src="https://github.com/user-attachments/assets/28af9585-0118-4421-9c26-44555badf97a"/>
    <img align="right" width="250"
        src="https://github.com/user-attachments/assets/40a91cfc-4ee8-49f0-8fd9-0a64c41972be"/>
 
-<img align="right" width="250"
-       src="https://github.com/user-attachments/assets/28af9585-0118-4421-9c26-44555badf97a"/>
+
  
   Inspired by Martin Donald’s Hotspot Texturing example, I wanted to try the approach myself. I created a small Houdini asset that takes a mesh as input and either unwraps it automatically based on surface angles or allows the use of a handmade unwrap.
 
