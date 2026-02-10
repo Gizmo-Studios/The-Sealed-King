@@ -7,6 +7,7 @@ Collection on different small procedural assets and other tech art realted proje
 - `FMod`
 - `Materials / Shader`
 - `Unreal PCG`
+- `Houdini`
 
 ## 🗝️ Key Aspects
 - Working on game juice / game feel
