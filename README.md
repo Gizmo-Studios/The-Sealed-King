@@ -34,6 +34,7 @@ In this project I wanted to dive deeper into the visual aspects of tech art and 
   
 
 
+
  I also used Houdini to create several of our effects. The blood decals were created in Houdini using a fluid simulation and then turned into a grayscale texture, which I can sample to achieve a smooth animation that doesn’t rely on the limited frame rate or resolution of a texture sheet. Some of the smoke uses the newer Heterogeneous Volumes in Unreal, which allow the import of volume textures. The smoke simulation was created in Houdini and baked into a volume texture.
   <br clear="all">
   <img align="right" height="250" width="500"
@@ -43,22 +44,32 @@ In this project I wanted to dive deeper into the visual aspects of tech art and 
   <br clear="all">
 </div>
 
-<div>
-  <h3> 🔫 PCG - Magazine:</h3>
-
-  <img align="right" height="500"
-       src="https://github.com/user-attachments/assets/3d2f5b2a-0016-4220-b525-3c071b24872c"/>
-
   <img align="right" width="500"
-       src="https://github.com/user-attachments/assets/d6ee8bee-d9a4-4b13-a037-41ea51970b74"/>
-  I wanted to create a tool for fast and easy editing of an asset with multiple variations. Because I really enjoy shooters, the first idea that came to my mind was a magazine generator that creates magazines with different sizes and shapes.
+       src="https://github.com/user-attachments/assets/cdc4276d-1d9c-4106-a22f-d51b635a05e5"/>
+<br clear="all">
 
-The tool handles the entire pipeline, including high-poly to low-poly baking and UV unwrapping. Combined with procedural materials in Substance Designer, it is possible to create a wide range of interesting variations.
+<div>
+   <img align="right"  width="500"
+       src="https://github.com/user-attachments/assets/94f27c6d-f0fc-45a6-a1fc-7dbb9a0ab5d2"/>
+  <h3> 💣 Chaos - Destruction:</h3>
 
-The finished assets are best suited for third-person games that require a large amount of variation. Since the assets are generated procedurally, they can lack a bit of uniqueness compared to fully hand-crafted models.
-  <img align="left" width="300"
-       src="https://github.com/user-attachments/assets/c79f7dce-8564-4e0c-9dc2-4a329833f4f3"/>
+I was also responsible for implementing Chaos Destruction in our game. Several environmental props such as barrels, tables, chairs, and pillars were made fully destructible.
 
+A major focus was keeping the system performant. I carefully controlled fracture density, collision complexity, and debris lifetime to avoid unnecessary physics calculations. With the Chaos Field I controlled sleep thresholds and stop objects like the pillar from full destruction.
+
+To enhance the impact without adding smaller cluster of geometry, I complemented the destruction with lightweight VFX such as dust bursts and debris particles.
+</div>
+<br clear="all">
+![firegoblet](https://github.com/user-attachments/assets/94f27c6d-f0fc-45a6-a1fc-7dbb9a0ab5d2)
+
+
+<div>
+  <h3> 🛢️ PCG - Barrel Placer:</h3>
+  <img align="right" height="500"
+       src="https://github.com/user-attachments/assets/0c05af78-3f23-4cd9-a068-ad41d9bc3668"/>
+
+       
+As a big PCG fan I also took some time to look into the PCG system from Unreal and created a small tool to place actors quickly inside an area.
 
   <br clear="all">
 </div>
