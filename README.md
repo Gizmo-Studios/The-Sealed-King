@@ -49,11 +49,15 @@ In this project I wanted to dive deeper into the visual aspects of tech art and 
 <br clear="all">
 
 <div>
+
+  
+  <img align="right"  width="500"
+       src="https://github.com/user-attachments/assets/9da52c70-65ed-49fc-ad33-a09913a7bd3b"/>
+       
    <img align="right"  width="500"
        src="https://github.com/user-attachments/assets/94f27c6d-f0fc-45a6-a1fc-7dbb9a0ab5d2"/>
 
-   <img align="right"  width="500"
-       src="https://github.com/user-attachments/assets/9da52c70-65ed-49fc-ad33-a09913a7bd3b"/>
+ 
   <h3> 💣 Chaos - Destruction:</h3>
 
 I was also responsible for implementing Chaos Destruction in our game. Several environmental props such as barrels, tables, chairs, and pillars were made fully destructible.
