@@ -17,10 +17,10 @@ Collection on different small procedural assets and other tech art realted proje
 
 
 ## 🚩 Personal & Design Goals
-Scince I saw a GDC Talk from Sea of Thieves a few years back I am really interested in **Tech Art** and **Procedural Content Generation**. Planning and writing tools gives me a certain kind of pleasure, like solving a puzzle. All pieces falling into the right place and with one button press I can create awsome assets or change something on the fly.
+In this project I wanted to dive deeper into the visual aspects of tech art and focus more on **Visual Effects**. I had full control over all VFX and was **solely responsible** for the **look, feel and creation** of the effects. I also tried to integrate Houdini into my workflow and looked into Unreals PCG.
 
 <div>
-  <h3> 🧱 Hotspot Texturing:</h3>
+  <h3> 💥 Niagara VFX:</h3>
 
   <img align="right" width="500"
        src="https://github.com/user-attachments/assets/321d179e-81a6-4bad-835a-4cdb8d0e40fe"/>
@@ -30,18 +30,14 @@ Scince I saw a GDC Talk from Sea of Thieves a few years back I am really interes
 
 
 
+  Finding a fitting art style for our effects was a bit of a challenge. It was important to land somewhere between stylized and realistic.. Effects should support our gameplay and not take away from it. I started to play around with different degrees of stylization and intensity. One example is our slash effect. At first, it was just a small trail. Then it became a large slash that covered too much area. Finally, I settled on the medium version that made it into the final game.
+  
 
- 
-  Inspired by Martin Donald’s Hotspot Texturing example, I wanted to try the approach myself. I created a small Houdini asset that takes a mesh as input and either unwraps it automatically based on surface angles or allows the use of a handmade unwrap.
 
-  The asset provides options to define the UV and mesh size and calculates a score based on size and aspect ratio, with adjustable weighting to control which factor is more important. The trim texture is supplied by the user along with a cut plane. The sections of the texture plane are also scored, and the tool then finds the best match between the UV score and the mesh score.
-
-  The UVs are placed into the corresponding trim area and scaled to fit either uniformly or along a single axis. Afterwards, the unwrapped mesh can be used directly in-engine together with the texture.
-
-  This tool allows a large number of objects to be unwrapped and textured in very little time and works especially well in sci-fi settings due to its focus on hard-surface modeling.
+ I also used Houdini to create several of our effects. The blood decals were created in Houdini using a fluid simulation and then turned into a grayscale texture, which I can sample to achieve a smooth animation that doesn’t rely on the limited frame rate or resolution of a texture sheet. Some of the smoke uses the newer Heterogeneous Volumes in Unreal, which allow the import of volume textures. The smoke simulation was created in Houdini and baked into a volume texture.
   <br clear="all">
   <img align="right" height="250" width="500"
-       src="https://github.com/user-attachments/assets/28af9585-0118-4421-9c26-44555badf97a"/>
+       src="https://github.com/user-attachments/assets/bca1c4c9-7b4b-4f3b-9662-b71ae23b3ed1"/>
    <img align="right" width="250" 
        src="https://github.com/user-attachments/assets/40a91cfc-4ee8-49f0-8fd9-0a64c41972be"/>
   <br clear="all">
