@@ -1,6 +1,5 @@
 # 👑 The Sealed King
-Collection on different small procedural assets and other tech art realted projects
-
+The Sealed King is a 3D third person action game focused on melee combat, where you fight through a castle by using tactics like parry, finish, block, stun and drain their blood. Set in a dark/low fantasy world and a night with a snow covered castle. The goal? Kill the unworthy king!
 ## 🎯 Skills & Software
 - `Unreal Engine`
 - `Niagara`
